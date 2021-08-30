@@ -1,0 +1,79 @@
+### JupyterNotebooks ###
+.ipynb_checkpoints
+#*/.ipynb_checkpoints/*
+#**/.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+**/__pycache__
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+**/.idea
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environments
+# .env
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# operating system-related files
+# file properties cache/storage on macOS
+*.DS_Store
+
+# SageMaker
+*.flow
+churn.txt
+1-DataPrep/churn.ipynb
+1-DataPrep/test.csv
+1-DataPrep/train.csv
+1-DataPrep/validation.csv
+2-Modeling/xgboost_customer_churn.py
+3-Evaluation/evaluation.json
+3-Evaluation/model.tar.gz
+3-Evaluation/test.csv
+3-Evaluation/xgboost-model
+3-Evaluation/evaluate.py
+4-Deployment/RealTime/inference.py
+4-Deployment/Batch/test.csv
+4-Deployment/Batch/test_batch.csv
+4-Deployment/Batch/model.tar.gz
+4-Deployment/Batch/test_batch.csv.out
+4-Deployment/Batch/xgboost-model
+6-Pipelines/my_labs_solutions/*.py
+1-DataPrep/part-00000*
