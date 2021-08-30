@@ -6,7 +6,7 @@ It has been adapted from an [AWS blog post](https://aws.amazon.com/blogs/ai/pred
 
 Losing customers is costly for any business. Identifying unhappy customers early on gives you a chance to offer them incentives to stay.  In this workshop we'll use machine learning (ML) for automated identification of unhappy customers, also known as customer churn prediction.
 
-In this workshop we will use Gradient Boosted Trees to Predict Mobile Customer Departure.
+In this workshop we will use Gradient Boosted Trees (XGBoost) to Predict Mobile Customer Departure.
 
 ## The Data
 
@@ -41,7 +41,7 @@ Although we recommend that you follow and run the Labs in order, _this workshop 
 
 ## Run any module independently
 
-Remember that the `0-Introduction` lab **is mandatory**, no matter which module you will run. Following ones, can be executed independently:
+Remember that the `0-Introduction` lab **is mandatory**, no matter which module you will run. Following ones, can be executed independently (just follow the instructions for setup in each lab):
 
 ## [1-DataPrep](./1-DataPrep/data_preparation.ipynb)
 
