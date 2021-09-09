@@ -23,8 +23,8 @@ def get_endpoint_from_lab4():
     print("Please wait ~10 minutes for the endpoint to be deployed.")
     
     # Set the paths for the datasets saved locally
-    path_to_lab2 = "/root/amazon-sagemaker-workshop/2-Modeling/"
-    path_to_lab5 = "/root/amazon-sagemaker-workshop/5-Monitoring/"
+    path_to_lab2 = "/root/sagemaker-end-to-end-workshop/2-Modeling/"
+    path_to_lab5 = "/root/sagemaker-end-to-end-workshop/5-Monitoring/"
     
     local_train_path = path_to_lab2 + 'config/train.csv'
     train_df = pd.read_csv(local_train_path, header=None)

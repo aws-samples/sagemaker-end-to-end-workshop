@@ -34,7 +34,7 @@ def get_estimator_from_lab2(docker_image_name, framework_version):
     print("Please wait 5 minutes for the training job to run.")
     
     # Set the paths for the datasets saved locally
-    path_to_lab2 = "/root/amazon-sagemaker-workshop/2-Modeling/"
+    path_to_lab2 = "/root/sagemaker-end-to-end-workshop/2-Modeling/"
     
     local_train_path = path_to_lab2 + 'config/train.csv'
     train_df = pd.read_csv(local_train_path, header=None)
