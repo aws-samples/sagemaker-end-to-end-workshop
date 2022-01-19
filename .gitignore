@@ -76,4 +76,5 @@ churn.txt
 4-Deployment/Batch/test_batch.csv.out
 4-Deployment/Batch/xgboost-model
 6-Pipelines/my_labs_solutions/*.py
+6-Pipelines/my_labs_solutions/*.json
 1-DataPrep/part-00000*
